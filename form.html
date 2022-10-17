@@ -1,0 +1,43 @@
+<form action="thankyou.html" >
+  <h2>Registration Form</h2>
+    <p>All Fields are Mandatory</p>
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="username" value="" placeholder="Enter Name" required><br><br>
+
+  <label for="email">Mail Id:</label>
+  <input id="email" type="email" name="email" value="" placeholder="Enter Mail id" required><br><br>
+
+  <label for="age">Age:</label>
+  <input id="age" type="text" name="age" value="" placeholder="Enter Age" required><br><br>
+
+  <h2>Are you ready for mentorship</h2>
+  <label for="yes">Yes</label>
+  <input id="yes" type="radio" name="mentor" value="yes">
+
+  <label for="no">No</label>
+  <input id="no" type="radio" name="mentor" value="no"><br>
+  <h2>Your Expectations like</h2>
+  <select name="expectations">
+    <option value='empty'></option>
+    <option value='career'>Career</option>
+    <option value='finance'>Finance</option>
+    <option value='relationship'>Relationship</option>
+    <option value='business'>Business</option>
+    <option value='faith'>Faith</option>
+  </select><br><br>
+  <h2>How many years of experience do you have:</h2>
+  <select name="noOfFocus">
+    <option value='empty'></option>
+    <option value='one'>1</option>
+    <option value='two'>2</option>
+    <option value='three'>3</option>
+    <option value='four'>4</option>
+  </select><br><br>
+  <h2>Are you ready for mentorship:</h2>
+  <input type="checkbox" name="mentorship" value="yes">Yes
+  <input type="checkbox" name="mentorship" value="no">No
+  <input type="checkbox" name="mentorship" value="maybe">Maybe <br><br>
+  <h2>Your comment and Feedback</h2>
+  <textarea name="comment" rows="8" cols="80"></textarea><br>
+  <input type="submit" name="Register" value="Register">
+</form>
